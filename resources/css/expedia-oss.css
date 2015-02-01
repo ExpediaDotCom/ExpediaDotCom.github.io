@@ -1,0 +1,82 @@
+body {
+    font-family: calibri, sans-serif;
+    background-color: #F0F0F0;
+/*    background-color: rgb(238, 194, 24);*/
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    border-top: solid 4px rgb(238, 194, 24);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: rgb(0, 53, 95);
+}
+
+.jumbotron h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+#title-expedia {
+    font-size: 100%;
+    color: rgb(238, 194, 24);
+}
+
+#title-oss {
+    font-size: 140%;
+    color: #FFF;
+}
+
+#page-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FFF;
+    color: #333;
+    font-size: 150%;
+}
+
+#page-content h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    color: #5C832F;
+}
+
+#page-content h1 .fa-chevron-right {
+    font-size: 80%;
+    color: #333;
+}
+
+#page-content h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.project {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.thumb {
+    margin-right: 20px;
+    width: 140px;
+    height: 140px;
+}
+
+#news li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: 2px dashed #666;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 120%;
+}
+
+footer .logo {
+    width: 200px;
+}
+
+footer #social {
+    font-size: 200%;
+}

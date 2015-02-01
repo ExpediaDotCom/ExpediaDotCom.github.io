@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">-->
+    <!--link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Righteous" type="text/css"-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster+Two" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/expedia-oss.css">
     <title>Expedia.com Open Source</title>
-    <style type="text/css">
-     body { font-size: 160%; }
-     #logo { width: 200px; }
-    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -19,39 +18,89 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Expedia</a>
-        </div>
-      </div>
-    </nav>
     <div class="jumbotron">
       <div class="container">
-        <!--p><img id="logo" src="http://www.expedia.com/static/ui_toolkit/v2-0/images/exp-logo.svg"></p-->
-        <h1>Open Source Software Center</h1>
+        <h1><span id="title-expedia">Expedia.com</span><br><span id="title-oss">Open Source Software Center</span></h1>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Seiso</h2>
-          <p>Devops data hub.</p>
-          <p><i class="fa fa-globe"></i> <a href="http://seiso.io">Web Site</a></p>
-          <p><i class="fa fa-github"></i> <a href="https://github.com/ExpediaDotCom/seiso">GitHub</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Tesla</h2>
-          <p>High-performance binary object serialization framework.</p>
-          <p><i class="fa fa-github"></i> <a href="https://github.com/ExpediaDotCom/tesla">GitHub</a></p>
+    <section id="page-content">
+      <div class="container">
+        <div class="row">
+
+          <!-- Project list -->
+          <div class="col-md-6">
+            <h1>Projects <i class="fa fa-chevron-right"></i></h1>
+            <p>(See our <a href="https://github.com/ExpediaDotCom">GitHub site</a> for a full list.)</p>
+            
+            <!-- Seiso -->
+            <div class="project">
+              <img src="resources/images/seiso-thumb.png" alt="Seiso" class="thumb img-rounded pull-left">
+              <h2>
+                Seiso
+                <a href="http://seiso.io"><i class="fa fa-globe"></i></a>
+                <a href="https://github.com/ExpediaDotCom/seiso"><i class="fa fa-github"></i></a>
+              </h2>
+              <p>Devops data hub.</p>
+              <div class="clearfix"></div>
+            </div>
+
+            <!-- Tesla -->
+            <div class="project">
+              <img src="resources/images/tesla-thumb.png" alt="Tesla" class="thumb img-rounded pull-left">
+              <h2>Tesla <a href="https://github.com/ExpediaDotCom/tesla"><i class="fa fa-github"></i></a></h2>
+              <p>High-performance binary object serialization framework.</p>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+          <!-- News -->
+          <div class="col-md-5 col-md-offset-1">
+            <section id="news">
+              <h1>News <i class="fa fa-chevron-right"></i></h1>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td><span class="label label-info">2015-02-01</span></td>
+                    <td>Expedia.com Open Source Software Center goes live!</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label label-info">2015-01-25</span></td>
+                    <td>Tesla high-performance binary object serialization framework released as open source software.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label label-info">2015-11-18</span></td>
+                    <td>Seiso devops data hub released as open source software.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section> <!-- end news -->
+
+            <hr>
+            
+            <section id="about">
+              <h1>About <i class="fa fa-chevron-right"></i></h1>
+              <p>At Expedia we're big fans of open source software, and we're excited about the opportunity to give something back. We're just getting started, so stay tuned!</p>
+            </section> <!-- end about -->
+          </div>
         </div>
       </div>
-      <hr>
-      <footer>
-        <p><a href="http://www.lifeatexpedia.com/brands/expedia/">Jobs @ Expedia</a></p>
+    </section> <!-- end projects and news -->
+    <footer>
+      <div class="container">
+        <p><a href="http://www.expedia.com"><img class="logo" src="http://expedia.com/static/ui_toolkit/v2-0/images/exp-logo.svg"></a></p>
+        <p id="social">
+          <a href="https://github.com/ExpediaDotCom"><i class="fa fa-github"></i></a>
+          <a href="https://www.facebook.com/expedia"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://twitter.com/expedia"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com/expedia"><i class="fa fa-instagram"></i></a>
+        </p>
+        <p>
+          <a href="http://www.expedia.com">expedia.com</a> |
+          <a href="http://www.lifeatexpedia.com/brands/expedia/">Jobs @ Expedia</a>
+        </p>
         <p>Copyright &copy; 2015 Expedia, Inc. All rights reserved.</p>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
